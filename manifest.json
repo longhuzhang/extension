@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "移除解析视频部分",
+    "version": "1.0",
+    "description": "点击移除页面中所有包含'解析视频'标题的部分",
+    "action": {
+      "default_icon": "icon.png",
+      "default_title": "移除解析视频"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "icons": {
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
